@@ -1,10 +1,9 @@
 # YOLO-based-Planthopper-Detection-System
-<<<<<<< HEAD
 系统功能：基于YOLO算法实现白盘中稻飞虱的检测，并实现了简单的可视化操作
 
-![流程](F:\SoftWare_Files\Typora Files\Pictures\流程.png)
+![流程](img/pipeline.png)
 
-![系统界面图片](F:\SoftWare_Files\Typora Files\Pictures\系统界面图片.png)
+![系统界面图片](img/visualization.png)
 
 ### 环境配置
 
@@ -54,6 +53,3 @@ yolo task=detect mode=export model=D:\Code\Pycharm_Code\ultralytics-main\runs\de
 python predict_with_sahi.py --yolov8_model_path D:\Code\Pycharm_Code\ultralytics-main\runs\detect\train-RepGhost-MSDA-NWD(loss)\weights\train-RepGhost-MSDA-NWD(loss).onnx --mode 1 --image_path data/origin_images/0_SV_IMG_20221209_132750_819.jpg
 ```
 
-=======
-A Planthopper Detection System Based on YOLO Algorithm
->>>>>>> 9f4199c97e445d3ef477e2b86c254b12bbf5e12a
